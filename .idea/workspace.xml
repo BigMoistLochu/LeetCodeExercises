@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="added new problem and new solution">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/ContainsDuplicateEasy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LongestCommonPrefixEasy.java" afterDir="false" />
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="added ContainsDuplicate Problem and his solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/ContainsDuplicateIIEasy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ArraysAndHashing/ContainsDuplicateEasyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TwoSumEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/TwoSumEasy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TwoSumEasyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TwoSumEasyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -65,10 +62,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.ArraysAndHashing" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ContainsDuplicateEasyTest.containsDuplicateMethodShouldEquelsFalse">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="LeetCodeExercises" />
@@ -82,8 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.TwoSumEasy" />
+    <configuration name="ContainsDuplicateEasyTest.containsDuplicateMethodShouldEquelsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
@@ -91,6 +88,26 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.ContainsDuplicateEasyTest" />
+      <option name="METHOD_NAME" value="containsDuplicateMethodShouldEquelsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainsDuplicateEasyTest.containsDuplicateMethodShouldEquelsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.ContainsDuplicateEasyTest" />
+      <option name="METHOD_NAME" value="containsDuplicateMethodShouldEquelsTrue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContainsDuplicateEasyTest.containsDuplicateMethodShouldEquelsFalse" />
+        <item itemvalue="JUnit.ContainsDuplicateEasyTest.containsDuplicateMethodShouldEquelsTrue" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TwoSumEasyTest" />
         <item itemvalue="JUnit.TwoSumEasyTest.FirstIndexOfReturnShouldEqualsZero" />
-        <item itemvalue="Application.TwoSumEasy" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685319726734</updated>
       <workItem from="1685319727382" duration="13378000" />
-      <workItem from="1688029955454" duration="4213000" />
+      <workItem from="1688029955454" duration="10006000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -167,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688030050025</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added ContainsDuplicate Problem and his solution">
+      <created>1688035546400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688035546400</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,18 +202,8 @@
     <MESSAGE value="working at Two Sum problem on LeetCode" />
     <MESSAGE value="done problem: Two Sum" />
     <MESSAGE value="added new problem and new solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new problem and new solution" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/ContainsDuplicateEasy.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added ContainsDuplicate Problem and his solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ContainsDuplicate Problem and his solution" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
