@@ -1,8 +1,6 @@
 package org.example;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class TwoSumEasy {
@@ -17,7 +15,7 @@ public class TwoSumEasy {
     //Input: nums = [2,7,11,15], target = 9
     //Output: [0,1]
     //Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
-    public static int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
 
         Map<Integer,Integer> dictionary = new HashMap<>();
         int[] twoIndexOfTarget = new int[2];
@@ -43,9 +41,4 @@ public class TwoSumEasy {
     }
 
 
-    public static void main(String[] args) {
-        int[] nums = {2, 7, 11, 15};
-        int target = 9;
-        System.out.println(twoSum(nums,target)[0]);
-    }
 }
