@@ -1,8 +1,6 @@
 package org.example.recruitmentTasks;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class TheThreeMostRepeatedWordsTaskOne {
 
@@ -15,16 +13,18 @@ public class TheThreeMostRepeatedWordsTaskOne {
     //masz nie zliczac znakow specialnych takich jak !@#$%^&*
 
 
-    public String getThreeMostRepeatedWords(String str)
+    public String[] getThreeMostRepeatedWords(String str)
     {
         String[] tab = str.split("[\\s*[*^#]\\s*]");
         Map<String,Integer> map = new HashMap<>();
 
-        String[] tablicaTop = {"!","!","!"};
+        String[] tablicaTop = new String[3];
         String MostRepetedString = "";
         int temporaryNumber1 = 0;
-        int[] sortedTab = {1,1,1};
 
+        int[] sortedTab = new int[3];
+
+        //tworzenie hashmapy gdzie klucz to slowo/litera a wartosc bedzie sie zwiekszac gdy pojawi w stringu
         for (String s:tab) {
 
             if(map.containsKey(s))
@@ -37,31 +37,53 @@ public class TheThreeMostRepeatedWordsTaskOne {
             }
         }
 
-        for (int i = 0; i < map.size(); i++) {
 
+        //sortowanie wartosci
+        List<Integer> newList = new ArrayList<>(map.values());
+        Collections.sort(newList);
 
+        //wyciaganie 3 najwiekszych wartosci i wrzucanie do tablicy "sortedTab"
+        for(int i = 0; i < sortedTab.length; i++)
+        {
+
+            if(i==0)
+            {
+                sortedTab[i] = newList.get(map.size()-1);
+            }
+            else if(i==1)
+            {
+                sortedTab[i] = newList.get(map.size()-2);
+            }
+            else
+            {
+                sortedTab[i] = newList.get(map.size()-3);
+            }
         }
 
 
-
+        //nadawanie wartosci z mapy do tablicy gdzie przechowuja sie top 3 wyrazy
         for(Map.Entry<String,Integer> entry : map.entrySet()) {
 
             String key = entry.getKey();
             Integer value = entry.getValue();
 
-            //a:3
-            //kdds:3
-            if(value>temporaryNumber1)
+            if(value==sortedTab[0])
             {
-                temporaryNumber1 = value;
-                MostRepetedString = key;
+                tablicaTop[0] = key;
+            }
+            else if(value==sortedTab[1]) {
+                tablicaTop[1] = key;
+            }
+            else if(value==sortedTab[2])
+            {
+                tablicaTop[2] = key;
             }
 
         }
 
 
 
-        return MostRepetedString;
+        return tablicaTop;
     }
 
 
