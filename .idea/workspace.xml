@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="get solution TheThreeMostRepeatedWords and test unit for this class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/JewelsAndStonesEasy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +164,7 @@
       <workItem from="1688029955454" duration="11585000" />
       <workItem from="1688235088787" duration="13535000" />
       <workItem from="1688336142397" duration="4487000" />
+      <workItem from="1688487535823" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>

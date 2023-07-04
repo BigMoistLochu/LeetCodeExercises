@@ -10,6 +10,16 @@ public class JewelsAndStonesEasy {
     //Letters are case sensitive, so "a" is considered a different type of stone from "A".
     //Input: jewels = "aA", stones = "aAAbbbb"
     //Output: 3
+
+
+    //Simpler solution
+    //int count = 0;
+    //        int i = stones.length() - 1;
+    //        while(i >= 0) {
+    //            count += jewels.indexOf(stones.charAt(i)) > -1 ? 1 : 0;
+    //            i--;
+    //        }
+    //        return count;
     public int numJewelsInStones(String jewels, String stones) {
 
         char[] tabOfStones = stones.toCharArray();
@@ -39,6 +49,7 @@ public class JewelsAndStonesEasy {
             }
 
         }
+
 
 
         return suma;
