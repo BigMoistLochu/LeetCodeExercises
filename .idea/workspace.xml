@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="simpler solution of JewelsAndStonesEasy">
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add MissingNumberEasy class to solve in future">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/MissingNumberEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/MissingNumberEasy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +165,7 @@
       <workItem from="1688029955454" duration="11585000" />
       <workItem from="1688235088787" duration="13535000" />
       <workItem from="1688336142397" duration="4487000" />
-      <workItem from="1688487535823" duration="2067000" />
+      <workItem from="1688487535823" duration="3522000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -229,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688494896201</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add MissingNumberEasy class to solve in future">
+      <created>1688592621589</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688592621589</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +253,8 @@
     <MESSAGE value="add new TheThreeMostRepeatedWords and this class for now return one from 3 MostRepeatedWords" />
     <MESSAGE value="get solution TheThreeMostRepeatedWords and test unit for this class" />
     <MESSAGE value="simpler solution of JewelsAndStonesEasy" />
-    <option name="LAST_COMMIT_MESSAGE" value="simpler solution of JewelsAndStonesEasy" />
+    <MESSAGE value="add MissingNumberEasy class to solve in future" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MissingNumberEasy class to solve in future" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
