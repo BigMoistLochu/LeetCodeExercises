@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="the solution of MissingNumberEasy">
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="more simpler solution of MissingNumberEasy Complexity O(n)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/MissingNumberEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/MissingNumberEasy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +164,7 @@
       <workItem from="1688029955454" duration="11585000" />
       <workItem from="1688235088787" duration="13535000" />
       <workItem from="1688336142397" duration="4487000" />
-      <workItem from="1688487535823" duration="4574000" />
+      <workItem from="1688487535823" duration="5793000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -244,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688595917397</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="more simpler solution of MissingNumberEasy Complexity O(n)">
+      <created>1688596761219</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688596761219</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +268,8 @@
     <MESSAGE value="simpler solution of JewelsAndStonesEasy" />
     <MESSAGE value="add MissingNumberEasy class to solve in future" />
     <MESSAGE value="the solution of MissingNumberEasy" />
-    <option name="LAST_COMMIT_MESSAGE" value="the solution of MissingNumberEasy" />
+    <MESSAGE value="more simpler solution of MissingNumberEasy Complexity O(n)" />
+    <option name="LAST_COMMIT_MESSAGE" value="more simpler solution of MissingNumberEasy Complexity O(n)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
