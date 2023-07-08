@@ -19,9 +19,9 @@ public class Main {
         int[] c = {2,2,1,1,1,2,2};
 
 
+        MergeStringsAlternatelyEasy mergeStringsAlternatelyEasy = new MergeStringsAlternatelyEasy();
 
-        JewelsAndStonesEasy es = new JewelsAndStonesEasy();
-        es.numJewelsInStones("x","aAAbbbb");
+        System.out.println(mergeStringsAlternatelyEasy.mergeAlternately("abcd","pq"));
 
 
     }
