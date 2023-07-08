@@ -13,14 +13,17 @@ public class Main {
         int[] a = {1,2,3,1};
         int[] b = {1,0,1,1};
         int[] c = {2,2,1,1,1,2,2};
-        int[] nums1 = {2,0};
+        int[] nums1 = {3,2,2,3};
         int[] nums2 = {1};
         int m = 1;
         int n = 1;
+        int val = 3;
+
+
+        RemoveElementEasy elementEasy = new RemoveElementEasy();
 
 
 
-
-
+        System.out.println(elementEasy.removeElement(nums1,val));
     }
 }
