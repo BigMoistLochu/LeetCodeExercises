@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add and solve MergeSortedArrayEasy problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/RemoveElementEasy.java" afterDir="false" />
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add and solve RemoveElementEasy problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/GreatestCommonDivisorOfStringsEasy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +167,7 @@
       <workItem from="1688235088787" duration="13535000" />
       <workItem from="1688336142397" duration="4487000" />
       <workItem from="1688487535823" duration="5793000" />
-      <workItem from="1688750899856" duration="14615000" />
+      <workItem from="1688750899856" duration="19937000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -266,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688856438769</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add and solve RemoveElementEasy problem">
+      <created>1688858052146</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688858052146</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +295,28 @@
     <MESSAGE value="more simpler solution of MissingNumberEasy Complexity O(n)" />
     <MESSAGE value="solution of MergeStringsAlternatelyEasy" />
     <MESSAGE value="add and solve MergeSortedArrayEasy problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add and solve MergeSortedArrayEasy problem" />
+    <MESSAGE value="add and solve RemoveElementEasy problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="add and solve RemoveElementEasy problem" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/GreatestCommonDivisorOfStringsEasy.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/GreatestCommonDivisorOfStringsEasy.java</url>
+          <line>20</line>
+          <properties class="org.example.ArraysAndHashing.GreatestCommonDivisorOfStringsEasy" method="gcd">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -18,12 +18,12 @@ public class Main {
         int m = 1;
         int n = 1;
         int val = 3;
+        String str1 = "ABCABC";
+        String str2 = "ABC";
 
+        GreatestCommonDivisorOfStringsEasy x = new GreatestCommonDivisorOfStringsEasy();
 
-        RemoveElementEasy elementEasy = new RemoveElementEasy();
+        System.out.println(x.gcdOfStrings(str1,str2));
 
-
-
-        System.out.println(elementEasy.removeElement(nums1,val));
     }
 }
