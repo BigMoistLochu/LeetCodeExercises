@@ -24,10 +24,10 @@ public class Main {
 //        GreatestCommonDivisorOfStringsEasy x = new GreatestCommonDivisorOfStringsEasy();
 
 //        System.out.println(x.gcdOfStrings(str1,str2));
+        ValidAnagramEasy validAnagramEasy = new ValidAnagramEasy();
+        String cc = "bsybjrgkvsnaotmjzicdhcvckxprsllnckgqvmizqnbwaietgscklxtuvsaabrqzmsvxapverzacoibscjvroweqjidblbznmgvlxqvzxgtl";
+        String bb = "bsykxprslbjrgvsnaotmjzickdhcvclnckgqvmizqnbwaietgscklxtuvsaabrqzmsvxapverzacoibscjvroweqjidblbznmgvlxqvzxgtl";
 
-        HappyNumberEasy happyNumberEasy = new HappyNumberEasy();
-
-        System.out.println(happyNumberEasy.isHappy(2));
-
+        System.out.println(validAnagramEasy.isAnagram(cc, bb));
     }
 }

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add KidsWithTheGreatestNumberOfCandiesEasy problem to solve">
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add HappyNumberEasy Solution! finally">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/ValidAnagramEasy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/HappyNumberEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/HappyNumberEasy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LongestCommonPrefixEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LongestCommonPrefixEasy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +171,7 @@
       <workItem from="1688750899856" duration="20756000" />
       <workItem from="1689536670341" duration="2139000" />
       <workItem from="1690647766408" duration="26000" />
-      <workItem from="1690913902806" duration="4991000" />
+      <workItem from="1690913902806" duration="10368000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689536940109</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add HappyNumberEasy Solution! finally">
+      <created>1690919908013</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690919908013</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,18 +323,8 @@
     <MESSAGE value="add and solve RemoveElementEasy problem" />
     <MESSAGE value="add and solve GreatestCommonDivisorOfStringsEasy problem" />
     <MESSAGE value="add KidsWithTheGreatestNumberOfCandiesEasy problem to solve" />
-    <option name="LAST_COMMIT_MESSAGE" value="add KidsWithTheGreatestNumberOfCandiesEasy problem to solve" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/HappyNumberEasy.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="add HappyNumberEasy Solution! finally" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HappyNumberEasy Solution! finally" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

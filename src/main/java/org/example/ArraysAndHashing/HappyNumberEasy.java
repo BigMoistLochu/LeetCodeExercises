@@ -1,6 +1,7 @@
 package org.example.ArraysAndHashing;
 
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class HappyNumberEasy {
@@ -26,6 +27,7 @@ public class HappyNumberEasy {
     public boolean isHappy(int n) {
         // Create a set to keep track of the numbers that have already been seen
         Set<Integer> seen = new HashSet<>();
+
 
         // Loop until either n becomes 1 (in which case n is a happy number) or n is seen again (in which case n is not a happy number)
 
