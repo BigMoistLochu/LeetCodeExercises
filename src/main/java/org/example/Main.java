@@ -21,9 +21,13 @@ public class Main {
         String str1 = "ABCABC";
         String str2 = "ABC";
 
-        GreatestCommonDivisorOfStringsEasy x = new GreatestCommonDivisorOfStringsEasy();
+//        GreatestCommonDivisorOfStringsEasy x = new GreatestCommonDivisorOfStringsEasy();
 
-        System.out.println(x.gcdOfStrings(str1,str2));
+//        System.out.println(x.gcdOfStrings(str1,str2));
+
+        HappyNumberEasy happyNumberEasy = new HappyNumberEasy();
+
+        System.out.println(happyNumberEasy.isHappy(2));
 
     }
 }
