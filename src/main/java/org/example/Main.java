@@ -10,8 +10,8 @@ public class Main {
 
 
 
-        int[] a = {1,2,3,1};
-        int[] b = {1,0,1,1};
+        int[] a = {1,4,1,3};
+        int[] b = {2,3,4};
         int[] c = {2,2,1,1,1,2,2};
         int[] nums1 = {3,2,2,3};
         int[] nums2 = {1};
@@ -21,13 +21,7 @@ public class Main {
         String str1 = "ABCABC";
         String str2 = "ABC";
 
-//        GreatestCommonDivisorOfStringsEasy x = new GreatestCommonDivisorOfStringsEasy();
-
-//        System.out.println(x.gcdOfStrings(str1,str2));
-        ValidAnagramEasy validAnagramEasy = new ValidAnagramEasy();
-        String cc = "bsybjrgkvsnaotmjzicdhcvckxprsllnckgqvmizqnbwaietgscklxtuvsaabrqzmsvxapverzacoibscjvroweqjidblbznmgvlxqvzxgtl";
-        String bb = "bsykxprslbjrgvsnaotmjzickdhcvclnckgqvmizqnbwaietgscklxtuvsaabrqzmsvxapverzacoibscjvroweqjidblbznmgvlxqvzxgtl";
-
-        System.out.println(validAnagramEasy.isAnagram(cc, bb));
+        MedianOfTwoSortedArraysHard medianOfTwoSortedArraysHard = new MedianOfTwoSortedArraysHard();
+        medianOfTwoSortedArraysHard.findMedianSortedArrays(a,b);
     }
 }

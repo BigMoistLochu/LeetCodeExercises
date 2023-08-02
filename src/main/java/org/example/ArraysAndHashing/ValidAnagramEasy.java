@@ -15,6 +15,11 @@ public class ValidAnagramEasy {
         char arrayOfS[] = s.toCharArray();
         char arrayOfT[] = t.toCharArray();
 
+        if(arrayOfT.length>Integer.MAX_VALUE)
+        {
+            return true;
+        }
+
         Map<Character,Integer> map = new HashMap<>();
         Map<Character,Integer> mapOfT = new HashMap<>();
 
