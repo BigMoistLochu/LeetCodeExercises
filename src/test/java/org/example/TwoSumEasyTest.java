@@ -23,6 +23,21 @@ class TwoSumEasyTest {
 
     }
 
+    @Test
+    void twoSumMethodShouldEqualsFour() {
+
+        //Input: nums = [3,4,8,9], target = 12
+        //Output: [0,2]
+        //Explanation: Because nums[0] + nums[2] == 1, we return array [0, 1].
+
+
+        int[] nums = {3,4,8,9};
+        int target = 12;
+
+        assertEquals(2,twoSumEasy.twoSum(nums,target).length);
+
+    }
+
 
     @Test
     void FirstIndexOfReturnShouldEqualsZero() {
