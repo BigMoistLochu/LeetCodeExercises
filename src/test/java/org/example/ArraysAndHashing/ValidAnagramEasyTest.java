@@ -19,6 +19,6 @@ class ValidAnagramEasyTest {
     void isAnagramShouldReturnFalse() {
 
 
-        assertFalse(validAnagramEasy.isAnagram("apes","sepa"));
+        assertFalse(validAnagramEasy.isAnagram("apes","sepaa"));
     }
 }
