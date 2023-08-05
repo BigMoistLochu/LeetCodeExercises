@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add IntersectionOfTwoArraysEasy problem to solve" />
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add test to TwoSumEasyTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +65,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnFalse">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="LeetCodeExercises" />
@@ -109,6 +111,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.recruitmentTasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.recruitmentTasks" />
+      <option name="MAIN_CLASS_NAME" value="org.example.recruitmentTasks.TheThreeMostRepeatedWordsTaskOneTest" />
+      <option name="METHOD_NAME" value="getThreeMostRepeatedWordsShouldReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnIAndAbaAndB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeExercises" />
       <extension name="coverage">
@@ -125,28 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumEasyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TwoSumEasyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnFalse" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnIAndAbaAndB" />
         <item itemvalue="JUnit.ContainsDuplicateEasyTest.containsDuplicateMethodShouldEquelsFalse" />
         <item itemvalue="JUnit.ContainsDuplicateEasyTest.containsDuplicateMethodShouldEquelsTrue" />
-        <item itemvalue="JUnit.TwoSumEasyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +172,7 @@
       <workItem from="1690913902806" duration="11106000" />
       <workItem from="1690933576411" duration="2309000" />
       <workItem from="1691087332138" duration="1599000" />
+      <workItem from="1691158231129" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -317,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691088331932</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add test to TwoSumEasyTest">
+      <created>1691158555455</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1691158555455</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +356,8 @@
     <MESSAGE value="add solution ValidAnagramEasy" />
     <MESSAGE value="some code for first hard problem" />
     <MESSAGE value="add IntersectionOfTwoArraysEasy problem to solve" />
-    <option name="LAST_COMMIT_MESSAGE" value="add IntersectionOfTwoArraysEasy problem to solve" />
+    <MESSAGE value="add test to TwoSumEasyTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test to TwoSumEasyTest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
