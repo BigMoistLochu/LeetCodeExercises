@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add test to Anagram">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ArraysAndHashing/ValidAnagramEasyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ArraysAndHashing/ValidAnagramEasyTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add test to Anagram" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +63,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidAnagramEasyTest.isAnagramShouldReturnFalse">
+  <component name="RunManager" selected="JUnit.MissingNumberEasyTest.missingNumber">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="LeetCodeExercises" />
@@ -76,6 +73,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingNumberEasyTest.missingNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.MissingNumberEasyTest" />
+      <option name="METHOD_NAME" value="missingNumber" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,22 +104,6 @@
       <option name="PACKAGE_NAME" value="org.example.recruitmentTasks" />
       <option name="MAIN_CLASS_NAME" value="org.example.recruitmentTasks.TheThreeMostRepeatedWordsTaskOneTest" />
       <option name="METHOD_NAME" value="getThreeMostRepeatedWordsShouldReturnFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnIAndAbaAndB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.recruitmentTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.recruitmentTasks" />
-      <option name="MAIN_CLASS_NAME" value="org.example.recruitmentTasks.TheThreeMostRepeatedWordsTaskOneTest" />
-      <option name="METHOD_NAME" value="getThreeMostRepeatedWordsShouldReturnIAndAbaAndB" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MissingNumberEasyTest.missingNumber" />
         <item itemvalue="JUnit.ValidAnagramEasyTest.isAnagramShouldReturnFalse" />
         <item itemvalue="JUnit.ValidAnagramEasyTest.isAnagram" />
         <item itemvalue="JUnit.TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnFalse" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnIAndAbaAndB" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +171,7 @@
       <workItem from="1690933576411" duration="2309000" />
       <workItem from="1691087332138" duration="1599000" />
       <workItem from="1691158231129" duration="2447000" />
-      <workItem from="1691435115152" duration="839000" />
+      <workItem from="1691435115152" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -344,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691435220628</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add test to Anagram">
+      <created>1691525033139</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1691525033139</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
