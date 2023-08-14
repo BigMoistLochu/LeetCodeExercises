@@ -53,4 +53,10 @@ class MissingNumberEasyTest {
 
         assertEquals(6,missingNumberEasy.missingNumber(list));
     }
+    @Test
+    void missingNumberShouldReturnMissingNumberIs0() {
+        int[] list = {7,9,4,8,3,2,1,6,5};
+
+        assertEquals(0,missingNumberEasy.missingNumber(list));
+    }
 }
