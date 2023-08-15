@@ -30,10 +30,12 @@ class ValidAnagramEasyTest {
     @Test
     void isAnagramShouldReturnFalseWithAnotherParam() {
 
-
-
-
-
         assertFalse(validAnagramEasy.isAnagram("apes","sepaaj"));
+    }
+
+    @Test
+    void isAnagramShouldReturnFalseWithAnotherParamExa() {
+
+        assertFalse(validAnagramEasy.isAnagram("exa","eka"));
     }
 }

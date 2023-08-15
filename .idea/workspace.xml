@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add test MissingNumberEasyTest">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ArraysAndHashing/MissingNumberEasyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ArraysAndHashing/MissingNumberEasyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ArraysAndHashing/ValidAnagramEasyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ArraysAndHashing/ValidAnagramEasyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs7">
+  <component name="RunManager" selected="JUnit.ValidAnagramEasyTest.isAnagramShouldReturnFalseWithAnotherParamExa">
     <configuration name="MissingNumberEasyTest.missingNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeExercises" />
       <extension name="coverage">
@@ -114,22 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagramEasyTest.isAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.ValidAnagramEasyTest" />
-      <option name="METHOD_NAME" value="isAnagram" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ValidAnagramEasyTest.isAnagramShouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeExercises" />
       <extension name="coverage">
@@ -146,13 +130,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidAnagramEasyTest.isAnagramShouldReturnFalseWithAnotherParamExa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.ValidAnagramEasyTest" />
+      <option name="METHOD_NAME" value="isAnagramShouldReturnFalseWithAnotherParamExa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidAnagramEasyTest.isAnagramShouldReturnFalseWithAnotherParamExa" />
         <item itemvalue="JUnit.MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs7" />
         <item itemvalue="JUnit.MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs2" />
         <item itemvalue="JUnit.MissingNumberEasyTest.missingNumber" />
         <item itemvalue="JUnit.ValidAnagramEasyTest.isAnagramShouldReturnFalse" />
-        <item itemvalue="JUnit.ValidAnagramEasyTest.isAnagram" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +177,7 @@
       <workItem from="1691087332138" duration="1599000" />
       <workItem from="1691158231129" duration="2447000" />
       <workItem from="1691435115152" duration="2056000" />
-      <workItem from="1691613252262" duration="2351000" />
+      <workItem from="1691613252262" duration="5565000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -375,7 +375,35 @@
       <option name="project" value="LOCAL" />
       <updated>1691677402028</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add test MissingNumberEasyTest">
+      <created>1691781038629</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1691781038629</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add test MissingNumberEasyTest">
+      <created>1691840919025</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1691840919025</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add test MissingNumberEasyTest">
+      <created>1691923612188</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1691923612188</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add test MissingNumberEasyTest">
+      <created>1692039132015</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1692039132015</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
