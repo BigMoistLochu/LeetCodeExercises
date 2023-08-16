@@ -65,7 +65,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidAnagramEasyTest.isAnagramShouldReturnFalseWithAnotherParamExa">
+  <component name="RunManager" selected="JUnit.TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnFalse">
     <configuration name="MissingNumberEasyTest.missingNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeExercises" />
       <extension name="coverage">
@@ -114,17 +114,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagramEasyTest.isAnagramShouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
+          <option name="PATTERN" value="org.example.recruitmentTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.ValidAnagramEasyTest" />
-      <option name="METHOD_NAME" value="isAnagramShouldReturnFalse" />
+      <option name="PACKAGE_NAME" value="org.example.recruitmentTasks" />
+      <option name="MAIN_CLASS_NAME" value="org.example.recruitmentTasks.TheThreeMostRepeatedWordsTaskOneTest" />
+      <option name="METHOD_NAME" value="getThreeMostRepeatedWordsShouldReturnFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnFalse" />
         <item itemvalue="JUnit.ValidAnagramEasyTest.isAnagramShouldReturnFalseWithAnotherParamExa" />
         <item itemvalue="JUnit.MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs7" />
         <item itemvalue="JUnit.MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs2" />
         <item itemvalue="JUnit.MissingNumberEasyTest.missingNumber" />
-        <item itemvalue="JUnit.ValidAnagramEasyTest.isAnagramShouldReturnFalse" />
       </list>
     </recent_temporary>
   </component>
