@@ -32,7 +32,7 @@ class TheThreeMostRepeatedWordsTaskOneTest {
 
         String ape = "aba d d k cs aba i aba u d aba i i i i i x x x x x x x x x";
         assertNotEquals("xaba",theThreeMostRepeatedWordsTaskOne.getThreeMostRepeatedWords(ape)[0]);
-
+        assertNotEquals("xd",theThreeMostRepeatedWordsTaskOne.getThreeMostRepeatedWords(ape)[1]);
 
     }
 }
