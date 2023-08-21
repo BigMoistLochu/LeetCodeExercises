@@ -35,5 +35,6 @@ class TheThreeMostRepeatedWordsTaskOneTest {
         assertNotEquals("xd",theThreeMostRepeatedWordsTaskOne.getThreeMostRepeatedWords(ape)[1]);
         assertNotEquals("kd",theThreeMostRepeatedWordsTaskOne.getThreeMostRepeatedWords(ape)[2]);
         assertNotEquals("sdadas",theThreeMostRepeatedWordsTaskOne.getThreeMostRepeatedWords(ape)[2]);
+        assertNotEquals("sdadadds",theThreeMostRepeatedWordsTaskOne.getThreeMostRepeatedWords(ape)[2]);
     }
 }
