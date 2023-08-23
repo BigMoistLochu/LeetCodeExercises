@@ -19,11 +19,6 @@ public class MedianOfTwoSortedArraysHard {
             }
         }
 
-        //imitacja mergowania
-        //rozmiar to bedzie n+m
-        //przypadek 1
-        ////jesli poczatek jest wiekszy niz koniec nums1 to spinamy
-        //to znaczy ze mediana czyli srodkowy wyraz n+m%2
 
         if((nums1.length+nums2.length)%2==0)
         {
