@@ -8,8 +8,7 @@ public class MergeTwoSortedListsEasy {
 
         LinkedList<Integer> newSortedList = new LinkedList<>();
 
-        //index wskazuje na 2 obiekty na raz na list1 i list2
-        //
+
         int k = 0;
 
         for(int i=0;i<list1.size();i++)
