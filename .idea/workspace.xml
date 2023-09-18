@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add test MissingNumberEasyTest">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ArraysAndHashing/ValidAnagramEasyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ArraysAndHashing/ValidAnagramEasyTest.java" afterDir="false" />
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="remove borderplate">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LongestCommonPrefixEasy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,19 +68,16 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnFalse">
-    <configuration name="MissingNumberEasyTest.missingNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.MissingNumberEasyTest" />
-      <option name="METHOD_NAME" value="missingNumber" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnFalse" />
         <item itemvalue="JUnit.ValidAnagramEasyTest.isAnagramShouldReturnFalseWithAnotherParamExa" />
         <item itemvalue="JUnit.MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs7" />
         <item itemvalue="JUnit.MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs2" />
-        <item itemvalue="JUnit.MissingNumberEasyTest.missingNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +178,8 @@
       <workItem from="1691158231129" duration="2447000" />
       <workItem from="1691435115152" duration="2056000" />
       <workItem from="1691613252262" duration="5565000" />
+      <workItem from="1692203122569" duration="5926000" />
+      <workItem from="1694990794406" duration="5023000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -403,7 +405,84 @@
       <option name="project" value="LOCAL" />
       <updated>1692039132015</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add test TheThreeMostRepeatedWordsTaskOneTest">
+      <created>1692203351523</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1692203351523</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add test TheThreeMostRepeatedWordsTaskOneTest">
+      <created>1692288595375</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1692288595375</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add test TheThreeMostRepeatedWordsTaskOneTest">
+      <created>1692367781377</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1692367781377</updated>
+    </task>
+    <task id="LOCAL-00036" summary="change test TheThreeMostRepeatedWordsTaskOneTest">
+      <created>1692456737460</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1692456737460</updated>
+    </task>
+    <task id="LOCAL-00037" summary="change test TheThreeMostRepeatedWordsTaskOneTest">
+      <created>1692550418748</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1692550418748</updated>
+    </task>
+    <task id="LOCAL-00038" summary="change test TheThreeMostRepeatedWordsTaskOneTest">
+      <created>1692632708414</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1692632708414</updated>
+    </task>
+    <task id="LOCAL-00039" summary="change test TheThreeMostRepeatedWordsTaskOneTest">
+      <created>1692726836068</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1692726836068</updated>
+    </task>
+    <task id="LOCAL-00040" summary="remove borderplate in MergeSortedArrayEasy class">
+      <created>1692726884583</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1692726884583</updated>
+    </task>
+    <task id="LOCAL-00041" summary="remove borderplate">
+      <created>1692808115654</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1692808115654</updated>
+    </task>
+    <task id="LOCAL-00042" summary="remove borderplate">
+      <created>1692808147548</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1692808147548</updated>
+    </task>
+    <task id="LOCAL-00043" summary="remove borderplate">
+      <created>1692808166549</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1692808166549</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,10 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working at Two Sum problem on LeetCode" />
-    <MESSAGE value="done problem: Two Sum" />
-    <MESSAGE value="added new problem and new solution" />
-    <MESSAGE value="added ContainsDuplicate Problem and his solution" />
     <MESSAGE value="added ContainsDuplicateII Problem and his solution + make some test Unit for this" />
     <MESSAGE value="add MajorityElement problem and solution" />
     <MESSAGE value="add new TheThreeMostRepeatedWords and this class for now return one from 3 MostRepeatedWords" />
@@ -446,7 +521,11 @@
     <MESSAGE value="add test" />
     <MESSAGE value="add test to Anagram" />
     <MESSAGE value="add test MissingNumberEasyTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test MissingNumberEasyTest" />
+    <MESSAGE value="add test TheThreeMostRepeatedWordsTaskOneTest" />
+    <MESSAGE value="change test TheThreeMostRepeatedWordsTaskOneTest" />
+    <MESSAGE value="remove borderplate in MergeSortedArrayEasy class" />
+    <MESSAGE value="remove borderplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove borderplate" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
