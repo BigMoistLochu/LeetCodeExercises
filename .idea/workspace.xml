@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="remove borderplate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add RemoveDuplicatesFromSortedArray task, and his solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LongestCommonPrefixEasy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/krokk/IdeaProjects/AkademiaOdFrajeraDoFrajera/LeetCodeExercises&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/krokk/IdeaProjects/AkademiaOdFrajeraDoFrajera/RealTimeChatProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -179,7 +176,7 @@
       <workItem from="1691435115152" duration="2056000" />
       <workItem from="1691613252262" duration="5565000" />
       <workItem from="1692203122569" duration="5926000" />
-      <workItem from="1694990794406" duration="5023000" />
+      <workItem from="1694990794406" duration="6513000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -482,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692808166549</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add RemoveDuplicatesFromSortedArray task, and his solution">
+      <created>1694996302679</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1694996302679</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added ContainsDuplicateII Problem and his solution + make some test Unit for this" />
     <MESSAGE value="add MajorityElement problem and solution" />
     <MESSAGE value="add new TheThreeMostRepeatedWords and this class for now return one from 3 MostRepeatedWords" />
     <MESSAGE value="get solution TheThreeMostRepeatedWords and test unit for this class" />
@@ -525,7 +528,8 @@
     <MESSAGE value="change test TheThreeMostRepeatedWordsTaskOneTest" />
     <MESSAGE value="remove borderplate in MergeSortedArrayEasy class" />
     <MESSAGE value="remove borderplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove borderplate" />
+    <MESSAGE value="add RemoveDuplicatesFromSortedArray task, and his solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="add RemoveDuplicatesFromSortedArray task, and his solution" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
