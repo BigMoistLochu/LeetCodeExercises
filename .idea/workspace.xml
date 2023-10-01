@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add RemoveDuplicatesFromSortedArray task, and his solution">
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="remove no used exercise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/KidsWithTheGreatestNumberOfCandies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/krokk/IdeaProjects/AkademiaOdFrajeraDoFrajera/RealTimeChatProject",
+    "last_opened_file_path": "C:/Users/krokk/IdeaProjects/AkademiaOdFrajeraDoFrajera/LeetCodeExercises",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -177,6 +178,7 @@
       <workItem from="1691613252262" duration="5565000" />
       <workItem from="1692203122569" duration="5926000" />
       <workItem from="1694990794406" duration="6513000" />
+      <workItem from="1696098866316" duration="1048000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -486,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694996302679</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="remove no used exercise">
+      <created>1696098963862</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1696098963862</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +513,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add MajorityElement problem and solution" />
     <MESSAGE value="add new TheThreeMostRepeatedWords and this class for now return one from 3 MostRepeatedWords" />
     <MESSAGE value="get solution TheThreeMostRepeatedWords and test unit for this class" />
     <MESSAGE value="simpler solution of JewelsAndStonesEasy" />
@@ -529,7 +537,8 @@
     <MESSAGE value="remove borderplate in MergeSortedArrayEasy class" />
     <MESSAGE value="remove borderplate" />
     <MESSAGE value="add RemoveDuplicatesFromSortedArray task, and his solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="add RemoveDuplicatesFromSortedArray task, and his solution" />
+    <MESSAGE value="remove no used exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove no used exercise" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
