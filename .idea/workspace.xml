@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="remove no used exercise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/KidsWithTheGreatestNumberOfCandies.java" afterDir="false" />
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add soulition of KidsWithTheGreatestNumberOfCandies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +177,7 @@
       <workItem from="1691613252262" duration="5565000" />
       <workItem from="1692203122569" duration="5926000" />
       <workItem from="1694990794406" duration="6513000" />
-      <workItem from="1696098866316" duration="1048000" />
+      <workItem from="1696098866316" duration="2372000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -495,7 +494,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696098963862</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="add new task">
+      <created>1696185672570</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1696185672570</updated>
+    </task>
+    <task id="LOCAL-00047" summary="add soulition of KidsWithTheGreatestNumberOfCandies">
+      <created>1696185704141</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1696185704141</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,8 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add new TheThreeMostRepeatedWords and this class for now return one from 3 MostRepeatedWords" />
-    <MESSAGE value="get solution TheThreeMostRepeatedWords and test unit for this class" />
     <MESSAGE value="simpler solution of JewelsAndStonesEasy" />
     <MESSAGE value="add MissingNumberEasy class to solve in future" />
     <MESSAGE value="the solution of MissingNumberEasy" />
@@ -538,7 +549,9 @@
     <MESSAGE value="remove borderplate" />
     <MESSAGE value="add RemoveDuplicatesFromSortedArray task, and his solution" />
     <MESSAGE value="remove no used exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove no used exercise" />
+    <MESSAGE value="add new task" />
+    <MESSAGE value="add soulition of KidsWithTheGreatestNumberOfCandies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add soulition of KidsWithTheGreatestNumberOfCandies" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
