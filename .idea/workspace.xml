@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add soulition of KidsWithTheGreatestNumberOfCandies">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="solution of CanPlaceFlowers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +44,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/krokk/IdeaProjects/AkademiaOdFrajeraDoFrajera/LeetCodeExercises",
+    "last_opened_file_path": "C:/Users/krokk/IdeaProjects/AkademiaOdFrajeraDoFrajera/ProjektRestApi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -178,6 +176,7 @@
       <workItem from="1692203122569" duration="5926000" />
       <workItem from="1694990794406" duration="6513000" />
       <workItem from="1696098866316" duration="2372000" />
+      <workItem from="1696273968373" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary="working at Two Sum problem on LeetCode">
       <created>1685320072488</created>
@@ -508,7 +507,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696185704141</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="add new task, CanPlaceFlowers">
+      <created>1696274095505</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1696274095505</updated>
+    </task>
+    <task id="LOCAL-00049" summary="solution of CanPlaceFlowers">
+      <created>1696274147115</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1696274147117</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,8 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="simpler solution of JewelsAndStonesEasy" />
-    <MESSAGE value="add MissingNumberEasy class to solve in future" />
     <MESSAGE value="the solution of MissingNumberEasy" />
     <MESSAGE value="more simpler solution of MissingNumberEasy Complexity O(n)" />
     <MESSAGE value="solution of MergeStringsAlternatelyEasy" />
@@ -551,7 +562,9 @@
     <MESSAGE value="remove no used exercise" />
     <MESSAGE value="add new task" />
     <MESSAGE value="add soulition of KidsWithTheGreatestNumberOfCandies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add soulition of KidsWithTheGreatestNumberOfCandies" />
+    <MESSAGE value="add new task, CanPlaceFlowers" />
+    <MESSAGE value="solution of CanPlaceFlowers" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution of CanPlaceFlowers" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
