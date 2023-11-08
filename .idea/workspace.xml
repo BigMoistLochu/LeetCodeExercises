@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add the solution of MoveZeroes">
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="Add solution for  task(IsSubsequence)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/PlusOneEasy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.PlusOneEasy">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="LeetCodeExercises" />
@@ -79,7 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlusOneEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.PlusOneEasy" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
@@ -87,10 +89,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.MissingNumberEasyTest" />
-      <option name="METHOD_NAME" value="missingNumberShouldReturnMissingNumberIs2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlusOneEasy" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnFalse" />
         <item itemvalue="JUnit.ValidAnagramEasyTest.isAnagramShouldReturnFalseWithAnotherParamExa" />
         <item itemvalue="JUnit.MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs7" />
-        <item itemvalue="JUnit.MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs2" />
       </list>
     </recent_temporary>
   </component>
@@ -179,21 +177,8 @@
       <workItem from="1694990794406" duration="6513000" />
       <workItem from="1696098866316" duration="2372000" />
       <workItem from="1696273968373" duration="785000" />
-      <workItem from="1696448266439" duration="156000" />
-    </task>
-    <task id="LOCAL-00003" summary="added new problem and new solution">
-      <created>1688030050025</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1688030050025</updated>
-    </task>
-    <task id="LOCAL-00004" summary="added ContainsDuplicate Problem and his solution">
-      <created>1688035546400</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1688035546400</updated>
+      <workItem from="1696448266439" duration="580000" />
+      <workItem from="1699408977813" duration="4523000" />
     </task>
     <task id="LOCAL-00005" summary="added ContainsDuplicateII Problem and his solution + make some test Unit for this">
       <created>1688056627515</created>
@@ -524,7 +509,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696448384415</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Add new task(IsSubsequence)">
+      <created>1696530464958</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1696530464958</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add solution for  task(IsSubsequence)">
+      <created>1696530537209</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1696530537209</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,8 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solution of MergeStringsAlternatelyEasy" />
-    <MESSAGE value="add and solve MergeSortedArrayEasy problem" />
     <MESSAGE value="add and solve RemoveElementEasy problem" />
     <MESSAGE value="add and solve GreatestCommonDivisorOfStringsEasy problem" />
     <MESSAGE value="add KidsWithTheGreatestNumberOfCandiesEasy problem to solve" />
@@ -567,7 +564,9 @@
     <MESSAGE value="solution of CanPlaceFlowers" />
     <MESSAGE value="add new task for solve" />
     <MESSAGE value="add the solution of MoveZeroes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the solution of MoveZeroes" />
+    <MESSAGE value="Add new task(IsSubsequence)" />
+    <MESSAGE value="Add solution for  task(IsSubsequence)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add solution for  task(IsSubsequence)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
