@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="Add solution for  task(IsSubsequence)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/PlusOneEasy.java" afterDir="false" />
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add FindTheIndexOfTheFirstOccurrenceInAStringEasy and solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Strings/ValidParenthesesEasy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,23 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/krokk/IdeaProjects/AkademiaOdFrajeraDoFrajera/LeetCodeExercises",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/krokk/IdeaProjects/AkademiaOdFrajeraDoFrajera/ListJobsProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -66,7 +66,20 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PlusOneEasy">
+  <component name="RunManager" selected="Application.ValidParenthesesEasy">
+    <configuration name="FindTheIndexOfTheFirstOccurrenceInAStringEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Strings.FindTheIndexOfTheFirstOccurrenceInAStringEasy" />
+      <module name="LeetCodeExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="LeetCodeExercises" />
@@ -93,18 +106,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidParenthesesEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Strings.ValidParenthesesEasy" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
+          <option name="PATTERN" value="org.example.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.MissingNumberEasyTest" />
-      <option name="METHOD_NAME" value="missingNumberShouldReturnMissingNumberIs7" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,29 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagramEasyTest.isAnagramShouldReturnFalseWithAnotherParamExa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.ValidAnagramEasyTest" />
-      <option name="METHOD_NAME" value="isAnagramShouldReturnFalseWithAnotherParamExa" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParenthesesEasy" />
+        <item itemvalue="Application.FindTheIndexOfTheFirstOccurrenceInAStringEasy" />
         <item itemvalue="Application.PlusOneEasy" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TheThreeMostRepeatedWordsTaskOneTest.getThreeMostRepeatedWordsShouldReturnFalse" />
-        <item itemvalue="JUnit.ValidAnagramEasyTest.isAnagramShouldReturnFalseWithAnotherParamExa" />
-        <item itemvalue="JUnit.MissingNumberEasyTest.missingNumberShouldReturnMissingNumberIs7" />
       </list>
     </recent_temporary>
   </component>
@@ -178,21 +172,8 @@
       <workItem from="1696098866316" duration="2372000" />
       <workItem from="1696273968373" duration="785000" />
       <workItem from="1696448266439" duration="580000" />
-      <workItem from="1699408977813" duration="4523000" />
-    </task>
-    <task id="LOCAL-00005" summary="added ContainsDuplicateII Problem and his solution + make some test Unit for this">
-      <created>1688056627515</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1688056627515</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add MajorityElement problem and solution">
-      <created>1688240459288</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1688240459288</updated>
+      <workItem from="1699408977813" duration="6321000" />
+      <workItem from="1699777348912" duration="8973000" />
     </task>
     <task id="LOCAL-00007" summary="add new TheThreeMostRepeatedWords and this class for now return one from 3 MostRepeatedWords">
       <created>1688254208296</created>
@@ -523,7 +504,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696530537209</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add solution for PlusOne Problem">
+      <created>1699414964661</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1699414964661</updated>
+    </task>
+    <task id="LOCAL-00055" summary="add FindTheIndexOfTheFirstOccurrenceInAStringEasy and solution">
+      <created>1699800782818</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1699800782819</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,8 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add and solve RemoveElementEasy problem" />
-    <MESSAGE value="add and solve GreatestCommonDivisorOfStringsEasy problem" />
     <MESSAGE value="add KidsWithTheGreatestNumberOfCandiesEasy problem to solve" />
     <MESSAGE value="add HappyNumberEasy Solution! finally" />
     <MESSAGE value="add solution ValidAnagramEasy" />
@@ -566,7 +559,9 @@
     <MESSAGE value="add the solution of MoveZeroes" />
     <MESSAGE value="Add new task(IsSubsequence)" />
     <MESSAGE value="Add solution for  task(IsSubsequence)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add solution for  task(IsSubsequence)" />
+    <MESSAGE value="add solution for PlusOne Problem" />
+    <MESSAGE value="add FindTheIndexOfTheFirstOccurrenceInAStringEasy and solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="add FindTheIndexOfTheFirstOccurrenceInAStringEasy and solution" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
