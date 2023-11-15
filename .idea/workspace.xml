@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="solution of ValidParenthesesEasy problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/PascalsTriangleEasy.java" afterDir="false" />
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add new problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,14 +170,7 @@
       <workItem from="1696448266439" duration="580000" />
       <workItem from="1699408977813" duration="6321000" />
       <workItem from="1699777348912" duration="10371000" />
-      <workItem from="1699977916646" duration="1514000" />
-    </task>
-    <task id="LOCAL-00008" summary="get solution TheThreeMostRepeatedWords and test unit for this class">
-      <created>1688338657243</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1688338657243</updated>
+      <workItem from="1699977916646" duration="2638000" />
     </task>
     <task id="LOCAL-00009" summary="simpler solution of JewelsAndStonesEasy">
       <created>1688494896201</created>
@@ -516,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699875620031</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="add new problem">
+      <created>1699993121620</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1699993121620</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add HappyNumberEasy Solution! finally" />
     <MESSAGE value="add solution ValidAnagramEasy" />
     <MESSAGE value="some code for first hard problem" />
     <MESSAGE value="add IntersectionOfTwoArraysEasy problem to solve" />
@@ -559,7 +557,8 @@
     <MESSAGE value="add solution for PlusOne Problem" />
     <MESSAGE value="add FindTheIndexOfTheFirstOccurrenceInAStringEasy and solution" />
     <MESSAGE value="solution of ValidParenthesesEasy problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution of ValidParenthesesEasy problem" />
+    <MESSAGE value="add new problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new problem" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

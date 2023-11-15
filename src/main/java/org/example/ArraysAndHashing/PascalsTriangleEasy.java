@@ -8,7 +8,7 @@ public class PascalsTriangleEasy {
 
     public static void main(String[] args) {
 
-        generate(5);
+        System.out.println(generate(5));
 
     }
     //Given an integer numRows, return the first numRows of Pascal's triangle.
@@ -20,23 +20,16 @@ public class PascalsTriangleEasy {
 
 
     public static List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> allrows = new ArrayList<>();
+        ArrayList<Integer> row = new ArrayList<>();
 
-        //ilosc tablic to numRows
-        //wszystkie boczne cyfy beda zaczynac sie od 1
-        //zmieniaja sie tylko cyfry ktore nie sa bokami
-
-        List<List<Integer>> listList = new ArrayList<>();
-        listList.add(new ArrayList<>(List.of(1)));
-        listList.add(new ArrayList<>(List.of(1,1)));
-
-        for (int i = 1; i < numRows-1; i++) {
-
-            List<Integer> listaPoprzednia = listList.get(i);
-            //sumujemy liczby
-
+        for(int i=0;i<numRows;i++)
+        {
+            row.add(0, 1);
+            for(int j=1;j<row.size()-1;j++)
+                row.set(j, row.get(j)+row.get(j+1));
+            allrows.add(new ArrayList<>(row));
         }
-
-        System.out.println(listList);
-        return new ArrayList<>();
+        return allrows;
     }
 }
