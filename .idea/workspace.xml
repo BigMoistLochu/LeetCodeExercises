@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add new problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/BestTimeToBuyAndSellStockEasy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/PascalsTriangleEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/PascalsTriangleEasy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/krokk/IdeaProjects/AkademiaOdFrajeraDoFrajera/LeetCodeExercises",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/krokk/IdeaProjects/AkademiaOdFrajeraDoFrajera/LeetCodeExercises&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -65,13 +67,13 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PascalsTriangleEasy">
-    <configuration name="FindTheIndexOfTheFirstOccurrenceInAStringEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Strings.FindTheIndexOfTheFirstOccurrenceInAStringEasy" />
+  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStockEasy">
+    <configuration name="BestTimeToBuyAndSellStockEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.BestTimeToBuyAndSellStockEasy" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Strings.*" />
+          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="FindTheIndexOfTheFirstOccurrenceInAStringEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Strings.FindTheIndexOfTheFirstOccurrenceInAStringEasy" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BestTimeToBuyAndSellStockEasy" />
         <item itemvalue="Application.PascalsTriangleEasy" />
         <item itemvalue="Application.ValidParenthesesEasy" />
         <item itemvalue="Application.FindTheIndexOfTheFirstOccurrenceInAStringEasy" />
         <item itemvalue="Application.PlusOneEasy" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +173,7 @@
       <workItem from="1699408977813" duration="6321000" />
       <workItem from="1699777348912" duration="10371000" />
       <workItem from="1699977916646" duration="2638000" />
+      <workItem from="1700160558156" duration="3607000" />
     </task>
     <task id="LOCAL-00009" summary="simpler solution of JewelsAndStonesEasy">
       <created>1688494896201</created>
