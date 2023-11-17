@@ -25,39 +25,18 @@ public class BestTimeToBuyAndSellStockEasy {
 
     public static int maxProfit(int[] prices) {
 
-        //z poczatku szukasz najmniejszej wartosci
-        //5-1=4 zapisujesz aktualny profit jako najwiekszy
-        //3-1=2 2>4 false nie nadpisujesz
-        //wskaznik na najmniejsza liczbe 7>1? tak-> wskaz na 1
-        //najlatwiej to zrobic to tak znalesc najmniejsza liczbe w liscie, po czym od jej prawej strony iterowac
-        //indexTheSmallestNumber=?
-        //for i=thesmalest ...
-        //najwiekszaLiczba =
         int min = prices[0];
-        int indexMin = 0;
+        int diff,overall = 0;
         for (int i = 1; i < prices.length; i++){
             if(min>prices[i]){
                 min = prices[i];
-                indexMin = i;
             }
-        }
-
-        if(indexMin==prices.length)
-        {
-            return 0;
-        }
-        //mamy index najmniejszej liczby
-        //teraz zaczynamy szukac od tego indexu najwiekszej roznicy
-//        {7,1,2,3,6,4} 2-1
-        int diff = 0;
-        for (int i = indexMin+1; i < prices.length ; i++) {
-            if(prices[i]-prices[indexMin]<diff)
+            diff = prices[i] - min;
+            if(overall<diff)
             {
-                diff = prices[indexMin]-prices[i];
+                overall = diff;
             }
-
         }
-
-        return diff;
+        return overall;
     }
 }
