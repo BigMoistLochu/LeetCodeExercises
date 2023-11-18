@@ -27,16 +27,27 @@ public class BestTimeToBuyAndSellStockEasy {
 
         int min = prices[0];
         int diff,overall = 0;
+
         for (int i = 1; i < prices.length; i++){
-            if(min>prices[i]){
-                min = prices[i];
-            }
-            diff = prices[i] - min;
-            if(overall<diff)
+            if(prices[i] < min) //jesli sprawdzana wartosc jest mniejsza niz min to:
             {
-                overall = diff;
+                min = prices[i]; //nadpisz
+            }
+            //2 etap
+            diff = prices[i] - min; //oblicz roznice
+            if(diff > overall) //jesli roznica jest wieksza niz calkowita wartosc to:
+            {
+                overall = diff; //nadpisz
             }
         }
+        //czyli masz tablice liczb [7,2,1,3,6,4]
+        //w min jest 7 na poczatku, sprawdzane jest czy 2 jest mniejsze niz 8, jesli tak
+        //wiemy ze wartosc sprawdzana jest w tym momencie najmniejsza
+        //w zmiennej min przechowujemy aktualnie najmniejsza wartosc
+
+        //w etapie 2 liczymy roznice w tym przypadku diff to 2-2=0
+        //jesli roznica jest wieksza niz overall to nadpisujesz
+        //przelatujesz tak kazdy element 
         return overall;
     }
 }
