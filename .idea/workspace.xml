@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add BuildArrayFromPermutationEasy solution" />
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add another problem to solve(FindTheDifference.class)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/FindTheDifferenceEasy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,13 +174,7 @@
       <workItem from="1699977916646" duration="2638000" />
       <workItem from="1700160558156" duration="7878000" />
       <workItem from="1700336220828" duration="6603000" />
-    </task>
-    <task id="LOCAL-00014" summary="add and solve MergeSortedArrayEasy problem">
-      <created>1688856438769</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1688856438769</updated>
+      <workItem from="1700590020436" duration="305000" />
     </task>
     <task id="LOCAL-00015" summary="add and solve RemoveElementEasy problem">
       <created>1688858052146</created>
@@ -515,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700501035708</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="add another problem to solve(FindTheDifference.class)">
+      <created>1700590325524</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1700590325524</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add test" />
     <MESSAGE value="add test to Anagram" />
     <MESSAGE value="add test MissingNumberEasyTest" />
     <MESSAGE value="add test TheThreeMostRepeatedWordsTaskOneTest" />
@@ -558,7 +561,8 @@
     <MESSAGE value="solution of BestTimeToBuyAndSellStockEasy" />
     <MESSAGE value="add new problem to solve..." />
     <MESSAGE value="add BuildArrayFromPermutationEasy solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="add BuildArrayFromPermutationEasy solution" />
+    <MESSAGE value="add another problem to solve(FindTheDifference.class)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add another problem to solve(FindTheDifference.class)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
