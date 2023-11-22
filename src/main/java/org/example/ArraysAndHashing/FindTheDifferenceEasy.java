@@ -15,8 +15,15 @@ public class FindTheDifferenceEasy {
     //Explanation: 'e' is the letter that was added.
     public static void main(String[] args) {
 
+        String s = "abcd";
+        String t = "abcde";
+        findTheDifference(s,t);
+
     }
-    public char findTheDifference(String s, String t) {
+    public static char findTheDifference(String s, String t) {
+
+        //t-s = znajdz roznice miedzy tymi dwoma stringami i daj ta literke
+        
         return s.charAt(0);
     }
 }

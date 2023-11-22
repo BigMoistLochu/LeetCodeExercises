@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add another problem to solve(FindTheDifference.class)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/FindTheDifferenceEasy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/FindTheDifferenceEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/FindTheDifferenceEasy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuildArrayFromPermutationEasy">
+  <component name="RunManager" selected="Application.FindTheDifferenceEasy">
     <configuration name="BestTimeToBuyAndSellStockEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.BestTimeToBuyAndSellStockEasy" />
       <module name="LeetCodeExercises" />
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheIndexOfTheFirstOccurrenceInAStringEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Strings.FindTheIndexOfTheFirstOccurrenceInAStringEasy" />
+    <configuration name="FindTheDifferenceEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.FindTheDifferenceEasy" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Strings.*" />
+          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheDifferenceEasy" />
         <item itemvalue="Application.BuildArrayFromPermutationEasy" />
         <item itemvalue="Application.BestTimeToBuyAndSellStockEasy" />
         <item itemvalue="Application.PascalsTriangleEasy" />
         <item itemvalue="Application.ValidParenthesesEasy" />
-        <item itemvalue="Application.FindTheIndexOfTheFirstOccurrenceInAStringEasy" />
       </list>
     </recent_temporary>
   </component>
@@ -174,14 +174,7 @@
       <workItem from="1699977916646" duration="2638000" />
       <workItem from="1700160558156" duration="7878000" />
       <workItem from="1700336220828" duration="6603000" />
-      <workItem from="1700590020436" duration="305000" />
-    </task>
-    <task id="LOCAL-00015" summary="add and solve RemoveElementEasy problem">
-      <created>1688858052146</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1688858052146</updated>
+      <workItem from="1700590020436" duration="1344000" />
     </task>
     <task id="LOCAL-00016" summary="add and solve GreatestCommonDivisorOfStringsEasy problem">
       <created>1688944979105</created>
@@ -519,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700590325524</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="add another problem to solve(FindTheDifference.class)">
+      <created>1700590382289</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1700590382290</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
