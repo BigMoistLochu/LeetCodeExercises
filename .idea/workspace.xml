@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add another problem to solve(FindTheDifference.class)">
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add another problem to solve(SingleNumberEasy)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/FindTheDifferenceEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/FindTheDifferenceEasy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/SingleNumberEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/SingleNumberEasy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindTheDifferenceEasy">
+  <component name="RunManager" selected="Application.SingleNumberEasy">
     <configuration name="BestTimeToBuyAndSellStockEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.BestTimeToBuyAndSellStockEasy" />
       <module name="LeetCodeExercises" />
@@ -119,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesesEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Strings.ValidParenthesesEasy" />
+    <configuration name="SingleNumberEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.SingleNumberEasy" />
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Strings.*" />
+          <option name="PATTERN" value="org.example.ArraysAndHashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleNumberEasy" />
         <item itemvalue="Application.FindTheDifferenceEasy" />
         <item itemvalue="Application.BuildArrayFromPermutationEasy" />
         <item itemvalue="Application.BestTimeToBuyAndSellStockEasy" />
         <item itemvalue="Application.PascalsTriangleEasy" />
-        <item itemvalue="Application.ValidParenthesesEasy" />
       </list>
     </recent_temporary>
   </component>
@@ -175,13 +175,7 @@
       <workItem from="1700160558156" duration="7878000" />
       <workItem from="1700336220828" duration="6603000" />
       <workItem from="1700590020436" duration="1344000" />
-    </task>
-    <task id="LOCAL-00016" summary="add and solve GreatestCommonDivisorOfStringsEasy problem">
-      <created>1688944979105</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1688944979105</updated>
+      <workItem from="1700679394661" duration="2139000" />
     </task>
     <task id="LOCAL-00017" summary="add KidsWithTheGreatestNumberOfCandiesEasy problem to solve">
       <created>1689536940109</created>
@@ -519,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700590382290</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="add another problem to solve(SingleNumberEasy)">
+      <created>1700679702692</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1700679702692</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add test to Anagram" />
     <MESSAGE value="add test MissingNumberEasyTest" />
     <MESSAGE value="add test TheThreeMostRepeatedWordsTaskOneTest" />
     <MESSAGE value="change test TheThreeMostRepeatedWordsTaskOneTest" />
@@ -562,7 +562,8 @@
     <MESSAGE value="add new problem to solve..." />
     <MESSAGE value="add BuildArrayFromPermutationEasy solution" />
     <MESSAGE value="add another problem to solve(FindTheDifference.class)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add another problem to solve(FindTheDifference.class)" />
+    <MESSAGE value="add another problem to solve(SingleNumberEasy)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add another problem to solve(SingleNumberEasy)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

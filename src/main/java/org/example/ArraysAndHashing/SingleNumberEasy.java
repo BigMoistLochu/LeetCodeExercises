@@ -13,9 +13,19 @@ public class SingleNumberEasy {
     //
     //Input: nums = [4,1,2,1,2]
     //Output: 4
-    public int singleNumber(int[] nums) {
 
-        return 1;
+    public static void main(String[] args) {
+        int[] array = {4,1,2,1,2};
+        singleNumber(array);
+    }
+    public static int singleNumber(int[] nums) {
+        int ans=0; //since XOR with 0 returns same number
+        for(int i=0; i<nums.length; i++){
+
+            ans ^= nums[i];  // ans = (ans) XOR (array element at i)
+            System.out.println(ans);
+        }
+        return ans;
     }
 
 
