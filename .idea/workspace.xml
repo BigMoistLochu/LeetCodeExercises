@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="solution of SingleNumberEasy" />
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="solution ProductOfArrayExceptSelfMedium">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,20 +176,8 @@
       <workItem from="1700590020436" duration="1344000" />
       <workItem from="1700679394661" duration="2139000" />
       <workItem from="1700778364021" duration="647000" />
-    </task>
-    <task id="LOCAL-00018" summary="add HappyNumberEasy Solution! finally">
-      <created>1690919908013</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1690919908013</updated>
-    </task>
-    <task id="LOCAL-00019" summary="add solution ValidAnagramEasy">
-      <created>1690926682068</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1690926682068</updated>
+      <workItem from="1700842618177" duration="1318000" />
+      <workItem from="1700942169660" duration="643000" />
     </task>
     <task id="LOCAL-00020" summary="some code for first hard problem">
       <created>1690935885217</created>
@@ -518,7 +508,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700778410250</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="add ProductOfArrayExceptSelfMedium new problem to solve">
+      <created>1700842716789</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1700842716790</updated>
+    </task>
+    <task id="LOCAL-00068" summary="solution ProductOfArrayExceptSelfMedium">
+      <created>1700842738966</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1700842738966</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,8 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add test TheThreeMostRepeatedWordsTaskOneTest" />
-    <MESSAGE value="change test TheThreeMostRepeatedWordsTaskOneTest" />
     <MESSAGE value="remove borderplate in MergeSortedArrayEasy class" />
     <MESSAGE value="remove borderplate" />
     <MESSAGE value="add RemoveDuplicatesFromSortedArray task, and his solution" />
@@ -561,7 +563,9 @@
     <MESSAGE value="add another problem to solve(FindTheDifference.class)" />
     <MESSAGE value="add another problem to solve(SingleNumberEasy)" />
     <MESSAGE value="solution of SingleNumberEasy" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution of SingleNumberEasy" />
+    <MESSAGE value="add ProductOfArrayExceptSelfMedium new problem to solve" />
+    <MESSAGE value="solution ProductOfArrayExceptSelfMedium" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution ProductOfArrayExceptSelfMedium" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
