@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="solution ProductOfArrayExceptSelfMedium">
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add SummaryRangesEasy problem to solve...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,14 +177,7 @@
       <workItem from="1700679394661" duration="2139000" />
       <workItem from="1700778364021" duration="647000" />
       <workItem from="1700842618177" duration="1318000" />
-      <workItem from="1700942169660" duration="643000" />
-    </task>
-    <task id="LOCAL-00020" summary="some code for first hard problem">
-      <created>1690935885217</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1690935885217</updated>
+      <workItem from="1700942169660" duration="2049000" />
     </task>
     <task id="LOCAL-00021" summary="add IntersectionOfTwoArraysEasy problem to solve">
       <created>1691088331931</created>
@@ -522,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700842738966</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="add SummaryRangesEasy problem to solve...">
+      <created>1700944220442</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1700944220443</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove borderplate in MergeSortedArrayEasy class" />
     <MESSAGE value="remove borderplate" />
     <MESSAGE value="add RemoveDuplicatesFromSortedArray task, and his solution" />
     <MESSAGE value="remove no used exercise" />
@@ -565,7 +564,8 @@
     <MESSAGE value="solution of SingleNumberEasy" />
     <MESSAGE value="add ProductOfArrayExceptSelfMedium new problem to solve" />
     <MESSAGE value="solution ProductOfArrayExceptSelfMedium" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution ProductOfArrayExceptSelfMedium" />
+    <MESSAGE value="add SummaryRangesEasy problem to solve..." />
+    <option name="LAST_COMMIT_MESSAGE" value="add SummaryRangesEasy problem to solve..." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
