@@ -16,5 +16,17 @@ public class MoveZeroesEasyTest {
         assertArrayEquals(outputArray,inputArray);
     }
 
+    @Test
+    public void moveZeroesMethodShouldReturnTwelveOnStart()
+    {   //Input: nums = [0,1,0,3,12]
+        //Output: [1,3,12,0,0]
+        int[] inputArray = {0,0,0,0,12};
+        int[] outputArray = {12,0,0,0,0};
+
+        MoveZeroesEasy.moveZeroes(inputArray);
+
+        assertArrayEquals(outputArray,inputArray);
+    }
+
 
 }
