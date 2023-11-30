@@ -65,9 +65,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnTwelveOnMiddle">
-    <configuration name="MoveZeroesEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.MoveZeroesEasy" />
+  <component name="RunManager" selected="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnAllZeros">
+    <configuration name="MoveZeroesEasyTest.moveZeroesMethodShouldReturnAllZeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
@@ -75,6 +74,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.MoveZeroesEasyTest" />
+      <option name="METHOD_NAME" value="moveZeroesMethodShouldReturnAllZeros" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnAllZeros" />
         <item itemvalue="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnTwelveOnMiddle" />
         <item itemvalue="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnTwelveOnStart" />
         <item itemvalue="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnListWhereAllZerosIsOnTheEnd (1)" />
         <item itemvalue="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnListWhereAllZerosIsOnTheEnd" />
-        <item itemvalue="Application.MoveZeroesEasy" />
       </list>
     </recent_temporary>
   </component>
@@ -192,14 +195,7 @@
       <workItem from="1700942169660" duration="2049000" />
       <workItem from="1701036867205" duration="916000" />
       <workItem from="1701117666598" duration="1736000" />
-      <workItem from="1701205771835" duration="2365000" />
-    </task>
-    <task id="LOCAL-00025" summary="add test to Anagram">
-      <created>1691525033139</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1691525033139</updated>
+      <workItem from="1701205771835" duration="3036000" />
     </task>
     <task id="LOCAL-00026" summary="add test MissingNumberEasyTest">
       <created>1691525361293</created>
@@ -537,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701206289741</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="add another test to MoveZeroesEasyTest">
+      <created>1701282843397</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1701282843397</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
