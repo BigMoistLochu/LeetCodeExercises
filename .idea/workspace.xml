@@ -63,7 +63,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnAllZeros">
+  <component name="RunManager" selected="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnNothing">
     <configuration name="MoveZeroesEasyTest.moveZeroesMethodShouldReturnAllZeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeExercises" />
       <extension name="coverage">
@@ -96,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroesEasyTest.moveZeroesMethodShouldReturnListWhereAllZerosIsOnTheEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoveZeroesEasyTest.moveZeroesMethodShouldReturnNothing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeExercises" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +106,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.ArraysAndHashing" />
       <option name="MAIN_CLASS_NAME" value="org.example.ArraysAndHashing.MoveZeroesEasyTest" />
-      <option name="METHOD_NAME" value="moveZeroesMethodShouldReturnListWhereAllZerosIsOnTheEnd(int[])" />
+      <option name="METHOD_NAME" value="moveZeroesMethodShouldReturnNothing" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnNothing" />
         <item itemvalue="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnAllZeros" />
         <item itemvalue="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnTwelveOnMiddle" />
         <item itemvalue="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnTwelveOnStart" />
         <item itemvalue="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnListWhereAllZerosIsOnTheEnd (1)" />
-        <item itemvalue="JUnit.MoveZeroesEasyTest.moveZeroesMethodShouldReturnListWhereAllZerosIsOnTheEnd" />
       </list>
     </recent_temporary>
   </component>
