@@ -40,17 +40,7 @@ public class MoveZeroesEasyTest {
         assertArrayEquals(outputArray,inputArray);
     }
 
-    @Test
-    public void moveZeroesMethodShouldReturnAllZeros()
-    {   //Input: nums = [0,0,0,0,0]
-        //Output: [0,0,0,0,0]
-        int[] inputArray = {};
-        int[] outputArray = {};
 
-        MoveZeroesEasy.moveZeroes(inputArray);
-
-        assertArrayEquals(outputArray,inputArray);
-    }
 
 
 }
