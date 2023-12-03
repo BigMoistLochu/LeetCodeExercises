@@ -22,7 +22,6 @@ public class SubarraysDistinctElementSumOfSquaresIEasy {
     public static int sumCounts(List<Integer> nums) {
 
 
-
         return nums.size();
     }
 
