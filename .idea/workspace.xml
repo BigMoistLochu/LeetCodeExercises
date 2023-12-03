@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add another test to MoveZeroesEasyTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArraysAndHashing/SubarraysDistinctElementSumOfSquaresIEasy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed715cf4-5064-458a-b3dd-fccb5991d9c1" name="Changes" comment="add SubarraysDistinctElementSumOfSquaresIEasy problem to solve" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,14 +195,7 @@
       <workItem from="1701117666598" duration="1736000" />
       <workItem from="1701205771835" duration="3052000" />
       <workItem from="1701551471400" duration="260000" />
-      <workItem from="1701551951580" duration="66000" />
-    </task>
-    <task id="LOCAL-00027" summary="add test MissingNumberEasyTest">
-      <created>1691613764917</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1691613764917</updated>
+      <workItem from="1701551951580" duration="739000" />
     </task>
     <task id="LOCAL-00028" summary="add test MissingNumberEasyTest">
       <created>1691677402028</created>
@@ -543,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701316976562</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="add SubarraysDistinctElementSumOfSquaresIEasy problem to solve">
+      <created>1701552094017</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1701552094017</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add soulition of KidsWithTheGreatestNumberOfCandies" />
     <MESSAGE value="add new task, CanPlaceFlowers" />
     <MESSAGE value="solution of CanPlaceFlowers" />
     <MESSAGE value="add new task for solve" />
@@ -586,7 +582,8 @@
     <MESSAGE value="add solution MoveZeroesEasy" />
     <MESSAGE value="write test for MoveZeroesEasy" />
     <MESSAGE value="add another test to MoveZeroesEasyTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add another test to MoveZeroesEasyTest" />
+    <MESSAGE value="add SubarraysDistinctElementSumOfSquaresIEasy problem to solve" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SubarraysDistinctElementSumOfSquaresIEasy problem to solve" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeExercises$TwoSumEasyTest.ic" NAME="TwoSumEasyTest Coverage Results" MODIFIED="1685327162849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -1,5 +1,6 @@
 package org.example.ArraysAndHashing;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SubarraysDistinctElementSumOfSquaresIEasy {
@@ -19,11 +20,21 @@ public class SubarraysDistinctElementSumOfSquaresIEasy {
         //testy
     }
     public static int sumCounts(List<Integer> nums) {
-        return 0;
+
+
+
+        return nums.size();
     }
 
     public static void testSumCounts()
     {
+        List<Integer> nums = new ArrayList<>();
+        nums.add(4);
+        nums.add(2);
 
+        if(nums.size()==2)
+        {
+            System.out.println("yes");
+        }
     }
 }
